@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://backend-z7at.onrender.com'
-  // baseURL: 'http://localhost:3333'
+  baseURL: 'http://localhost:8080'
 
 });
 
