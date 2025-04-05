@@ -169,6 +169,7 @@
 	transition: all .3s ease;
 	height: 100%;
 	max-height: 65px;
+	z-index: 100;
 }
 
 #sidebar.menuRecolhido + #content{
@@ -186,7 +187,6 @@ nav {
 	position: sticky;
 	top: 0;
 	left: 0;
-	z-index: 100;
 	box-shadow: 5px 5px 5px #ccc;
 }
 .toggle-sidebar {
